@@ -25,14 +25,9 @@ The mobile application will be used to control the actual home electronics and a
 
 In the future, it will also allow for more precise pinpointing of user location in the room by leveraging the data from multiple tags.
 
-## Sample Posts
+## Journal
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
+Here is a list of our weekly journals so far:
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -40,9 +35,5 @@ Here's a sample "posts list".
   {% endfor %}
 </ul>
 
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
 
 
