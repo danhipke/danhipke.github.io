@@ -1,28 +1,23 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: CSE477 Hardware Capstone
+tagline: F.R.E.D.
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+### Project Proposal 
+Home automation is a continuously growing field. As more and more home appliances and electronics are becoming "smart", it is important to minimize energy waste. Our product "F.R.E.D." is an attempt to solve this problem. We envision our product as a way to turn on and off various devices and electronics in your home based on how close you are to them.
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+## Product Details
 
-## Update Author Attributes
+# The Tags
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+# The Wearable
 
-The theme should reference these variables whenever needed.
-    
+# The Energy Regulator
+
+# The Mobile Application
+
 ## Sample Posts
 
 This blog contains sample posts which help stage pages and blog data.
