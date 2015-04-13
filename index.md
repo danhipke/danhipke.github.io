@@ -23,17 +23,21 @@ The regulator will initially be a device that plugs into an existing home outlet
 #### The Central Control Application 
 The application will be used to control the actual home electronics and appliances. It will communicate with the energy regulator and RF modules distributed throughout the house. When the RF module sends a signal that the user has left/entered a room, the application will send a signal to all energy regulators in the room to turn on/shut off all regulated electronics appropriately. This application will also let users configure which tags and energy regulators correspond to which rooms. If time allows, the application will connect to IFTTT and be able to be used in IFTTT recepies. At a high level, this process can be broken down into three main phases: <b>Receive</b>, <b>Process</b>, and <b>Send</b>.
 
-#### Receive
+<b>Receive:</b>
+
 When in this stage, the central hub is waiting for a signal from a wearable device.  Using a transceiver (RF or Bluetooth) as the input device, it waits until a properly formatted signal is sent from the wearable to the computer.  This signal will contain information about the wearable (device ID, location, etc).  Upon receiving this signal, the program moves to processing stage.
 <img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/Receive_Flowchart.png" style="width:600px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
 
-#### Process
+<b>Process:</b>
+
 The processing stage is concerned with translating the signal received into an action to be performed.  Using the unique ID of the wearable, the central control unit will lookup user defined preferences, and create a list of possible actions to take.  Then based on the location (or possibly changes in location) one of these actions will be selected.  For example if the processing stage receives an ID of "1", and a location of "Hallway" then it might choose an action of "turn hallway lights on".
 <img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/Process_Flowchart.png" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
 
-#### Send
+<b>Send:</b>
+
 This is the final stage of the program.  After a signal is received and processed, the central control unit now has an action to take.  This action will be converted into an output signal (RF or Bluetooth), and sent to the device it wishes to control.  This stage of the program is concerned with transforming "actions" into signals, and ensuring these signals are sent correctly.  After sending this signal it will move to the Receive stage, and wait for another incoming signal.
 <img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/Send_Flowchart.png" style="width:500px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
+
 
 
 ### Putting It All Together
