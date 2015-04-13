@@ -27,9 +27,12 @@ In the future, it will also allow for more precise pinpointing of user location 
 
 ### Putting It All Together
 <img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/block_diagram.png" style="width:800px" border="5">
-1. The wearable device periodically sends out discover signals to identify any tags in range. If a tag receives such a signal, it sends back to the wearble an acknowledgement signal containing its unique identifier.
-2. When the wearable receives an acknowledgement signal from a tag, it sends a message to the central system which contains the unique identifier of the acknowledging tag as well as the strength of the signal received by the wearable. The central system uses this information to determine the relative location of the device-wearing user. (Note: For the current development phase, the central system is a general purpose computer with RF and Bluetooth transceivers.)
-3. By checking the user's current location against the user-defined software settings, the central system determines whether messages must be sent to any electronics to manipulate their energy usage. (Note: For the current development phase, we will be using Bluetooth-controlled power outlet switches which will allow the central system to power on/off simple electronics, such as lamps or TVs.)
+
+<ol>
+<li>The wearable device periodically sends out discover signals to identify any tags in range. If a tag receives such a signal, it sends back to the wearble an acknowledgement signal containing its unique identifier.</li>
+<li>When the wearable receives an acknowledgement signal from a tag, it sends a message to the central system which contains the unique identifier of the acknowledging tag as well as the strength of the signal received by the wearable. The central system uses this information to determine the relative location of the device-wearing user. (Note: For the current development phase, the central system is a general purpose computer with RF and Bluetooth transceivers.)</li>
+<li>By checking the user's current location against the user-defined software settings, the central system determines whether messages must be sent to any electronics to manipulate their energy usage. (Note: For the current development phase, we will be using Bluetooth-controlled power outlet switches which will allow the central system to power on/off simple electronics, such as lamps or TVs.)</li>
+</ol>
 
 ## Bill of Materials
 * x8 RFM12B Radio Transceiver ($6.67 from http://moderndevice.com/product/rfm12b-radio/)
