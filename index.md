@@ -25,6 +25,14 @@ The mobile application will be used to control the actual home electronics and a
 
 In the future, it will also allow for more precise pinpointing of user location in the room by leveraging the data from multiple tags.
 
+## Bill of Materials
+* x8 RFM12B Radio Transceiver ($6.67 from http://moderndevice.com/product/rfm12b-radio/)
+* x8 AVR 28 Pin 20MHz 32K 6A/D - ATMega328P ($4.30 from https://www.sparkfun.com/products/9061) 
+* x1 Plugable® Bluetooth Controlled AC Power Switch for Home Automation with Android, iOS and Python Open-Source Applications ($35.00 from http://www.amazon.com/Plugable-Controlled-Automation-Open-Source-Applications/dp/B00PG50OSM/ref=sr_1_5?ie=UTF8&qid=1428885007&sr=8-5&keywords=bluetooth+power+switch)
+* Batteries ($5)
+* PCB
+* Case 
+
 ## Journal
 
 Here is a list of our weekly journals so far:
