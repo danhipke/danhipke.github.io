@@ -30,7 +30,7 @@ In the future, it will also allow for more precise pinpointing of user location 
 <img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/block_diagram.png" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
 </div>
 <ol>
-<li>The wearable device periodically sends out discover signals to identify any tags in range. If a tag receives such a signal, it sends back to the wearble an acknowledgement signal containing its unique identifier.</li>
+<li>The wearable device periodically sends out discovery signals to determine if any tags are in range. If a tag receives such a signal, it sends back to the wearble an acknowledgement signal containing its unique identifier.</li>
 </br>
 <li>When the wearable receives an acknowledgement signal from a tag, it sends a message to the central system which contains the unique identifier of the acknowledging tag as well as the strength of the signal received by the wearable. The central system uses this information to determine the relative location of the device-wearing user. (Note: For the current development phase, the central system is a general purpose computer with RF and Bluetooth transceivers.)</li>
 </br>
