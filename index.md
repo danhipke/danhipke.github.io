@@ -43,7 +43,7 @@ In the future, it will also allow for more precise pinpointing of user location 
 
 
 ## Bill of Materials
-<table style="width:100%;text-align:center;border:1px solid black">
+<table border="1" style="width:100%;text-align:center">
   <tr>
     <td>Quantity</td>
     <td>Item</td>
