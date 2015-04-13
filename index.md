@@ -21,7 +21,7 @@ The wearable will be a bracelet with an RF module similar to the tags. The brace
 The regulator will initially be a device that plugs into an existing home outlet and acts as an outlet for any electronic. It will control whether or not the device is turned on by regulating the flow of electricity from the outlet to the electronic to be controlled. This will be a bluetooth/wireless device that can be controlled through some external signal.
 
 #### The Central Control Application 
-The application will be used to control the actual home electronics and appliances. It will communicate with the energy regulator and wearable through bluetooth. When the wearable sends a signal that the user has left/entered a room, the application will send a signal to all energy regulators in the room to turn on/shut off all regulated electronics appropriately. This application will also let users configure which tags and energy regulators correspond to which rooms.
+The application will be used to control the actual home electronics and appliances. It will communicate with the energy regulator and RF modules distributed throughout the house. When the RF module sends a signal that the user has left/entered a room, the application will send a signal to all energy regulators in the room to turn on/shut off all regulated electronics appropriately. This application will also let users configure which tags and energy regulators correspond to which rooms.
 
 In the future, it will also allow for more precise pinpointing of user location in the room by leveraging the data from multiple tags.
 
