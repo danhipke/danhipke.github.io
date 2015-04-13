@@ -26,8 +26,7 @@ The mobile application will be used to control the actual home electronics and a
 In the future, it will also allow for more precise pinpointing of user location in the room by leveraging the data from multiple tags.
 
 ### Putting It All Together
-<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/block_diagram.png" style="width:800px;border:3px solid black" align="middle">
-</br>
+<div style="width:100%"><img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/block_diagram.png" style="width:800px;border:3px solid black" align="middle"></div>
 <ol>
 <li>The wearable device periodically sends out discover signals to identify any tags in range. If a tag receives such a signal, it sends back to the wearble an acknowledgement signal containing its unique identifier.</li>
 </br>
