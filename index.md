@@ -9,19 +9,19 @@ tagline: D.R.E.W.
 Home automation is a continuously growing field. As more and more home appliances and electronics are becoming "smart", it is important to minimize energy waste. Our product "D.R.E.W." is an attempt to solve this problem. We envision our product as a way to turn on and off various devices and electronics in your home based on how close you are to them.
 
 ### Product Details
-Our product will utilize RFID tags as a way to track the proximity of users in their homes. Specifically, users will be able to put the RFID tags around their house in rooms or other key locations in the house. The wearable device will be able to measure proximity to to these tags, or (with enough tags in a room) be able to triangulate the user's exact position in a room. The user will be able to configure which devices in the room are automatically turned off when the user is far enough from the room.
+Our product will utilize RF modules as a way to track the proximity of users in their homes. Specifically, users will be able to put the RF modules around their house in rooms or other key locations in the house. The wearable device will be able to measure proximity to to these tags and place the user in a specific zone. The user will then be able to configure specific rules for each zone.  For example, you could have all of the lights turn on when you enter the zone, and turn off whne you leave.  
 
 #### The Tags
-The tags will be active RFID tags requiring battery power. These tags can be placed in rooms across the house, with the option of multiple tags per room to allow for more fine-grained location pinpointing.
+The tags will be RF modules requiring battery power. These tags will be placed centrally in a room to allow for the most accurate zones.
 
 #### The Wearable
-The wearable will be a bracelet which acts as an RFID reader/writer. From the bracelet, the user can program the RFID tags. The bracelet will use the signal strength from the active RFID tags to measure proximity. A higher signal strength means the user is closer to the tag and as a result, closer to the room. A lower signal strength means the user is far away from the tag/room. The bracelet will handle all programming and reading of tag signals.
+The wearable will be a bracelet with an RF module similar to the tags. The bracelet will use the signal strength from the active RFID tags to measure proximity. A higher signal strength means the user is closer to the tag and as a result, closer to the room. A lower signal strength means the user is far away from the tag/room.
 
 #### Energy Regulator
 The regulator will initially be a device that plugs into an existing home outlet and acts as an outlet for any electronic. It will control whether or not the device is turned on by regulating the flow of electricity from the outlet to the electronic to be controlled. This will be a bluetooth/wireless device that can be controlled through some external signal.
 
-#### The Mobile Application
-The mobile application will be used to control the actual home electronics and appliances. It will communicate with the energy regulator and wearable through bluetooth. When the wearable sends a signal that the user has left/entered a room, the application will send a signal to all energy regulators in the room to turn on/shut off all regulated electronics appropriately. This application will also let users configure which tags and energy regulators correspond to which rooms.
+#### The Central Control Application 
+The application will be used to control the actual home electronics and appliances. It will communicate with the energy regulator and wearable through bluetooth. When the wearable sends a signal that the user has left/entered a room, the application will send a signal to all energy regulators in the room to turn on/shut off all regulated electronics appropriately. This application will also let users configure which tags and energy regulators correspond to which rooms.
 
 In the future, it will also allow for more precise pinpointing of user location in the room by leveraging the data from multiple tags.
 
