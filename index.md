@@ -45,9 +45,9 @@ In the future, it will also allow for more precise pinpointing of user location 
 ## Bill of Materials
 <table border="1" cellpadding="5" style="width=100%">
   <tr style="text-align:center">
-    <td>Quantity</td>
-    <td>Item</td>
-    <td>Price</td>
+    <td><b>Quantity</b></td>
+    <td><b>Item</b></td>
+    <td><b>Price</b></td>
   </tr>
   <tr>
     <td>8</td>
