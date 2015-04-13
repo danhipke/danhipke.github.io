@@ -37,7 +37,7 @@ In the future, it will also allow for more precise pinpointing of user location 
 <li>By checking the user's current location against the user-defined software settings, the central system determines whether messages must be sent to any electronics to manipulate their energy usage. (Note: For the current development phase, we will be using Bluetooth-controlled power outlet switches which will allow the central system to power on/off simple electronics, such as lamps or TVs.)</li>
 </ol>
 
-<div style="padding-top:8px;padding-bottom:12px">
+<div style="padding-top:8px;padding-bottom:12px;text-align:center">
 <img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/ex1.png" style="width:300px;border:2px solid black;display:inline-block;margin-left:auto;margin-right:auto">
 <img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/ex2.png" style="width:300px;border:2px solid black;display:inline-block;margin-left:auto;margin-right:auto">
 </div>
