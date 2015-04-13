@@ -43,7 +43,7 @@ In the future, it will also allow for more precise pinpointing of user location 
 
 
 ## Bill of Materials
-<table style="width:100%;text-align:center">
+<table style="width:100%;text-align:center;border:1px solid black">
   <tr>
     <td>Quantity</td>
     <td>Item</td>
@@ -51,32 +51,32 @@ In the future, it will also allow for more precise pinpointing of user location 
   </tr>
   <tr>
     <td>8</td>
-    <td><a href=http://moderndevice.com/product/rfm12b-radio>RFM12B Radio Transceiver</a></td>
+    <td><a href="http://moderndevice.com/product/rfm12b-radio">RFM12B Radio Transceiver</a></td>
     <td>$6.67</td>
   </tr>
   <tr>
     <td>8</td>
-    <td><a href=https://www.sparkfun.com/products/9061>ATMega328P</a></td>
+    <td><a href="https://www.sparkfun.com/products/9061">ATMega328P</a></td>
     <td>$4.30</td>
   </tr>
   <tr>
     <td>1</td>
-    <td><a href=http://www.amazon.com/Plugable-Controlled-Automation-Open-Source-Applications/dp/B00PG50OSM>Plugable Bluetooth-Controlled AC Power Switch</a></td>
+    <td><a href="http://www.amazon.com/Plugable-Controlled-Automation-Open-Source-Applications/dp/B00PG50OSM">Plugable Bluetooth-Controlled AC Power Switch</a></td>
     <td>$35.00</td>
   </tr>
   <tr>
     <td></td>
-    <td><a href=http://en.wikipedia.org/wiki/Battery_%28electricity%29>batteries</a></td>
+    <td><a href="http://en.wikipedia.org/wiki/Battery_%28electricity%29">batteries</a></td>
     <td></td>
   </tr>
   <tr>
     <td></td>
-    <td><a href=http://en.wikipedia.org/wiki/Printed_circuit_board>PCB</a></td>
+    <td><a href="http://en.wikipedia.org/wiki/Printed_circuit_board">PCB</a></td>
     <td></td>
   </tr>
   <tr>
     <td></td>
-    <td><a href=http://www.envplastics.com/sites/www.envplastics.com/files/styles/product_image/public/pcb_enclosure_uu_plastic_housing_black_1.jpg?itok=wl9KPsqr>plastic enclosure</a></td>
+    <td><a href="http://www.envplastics.com/sites/www.envplastics.com/files/styles/product_image/public/pcb_enclosure_uu_plastic_housing_black_1.jpg?itok=wl9KPsqr">plastic enclosure</a></td>
     <td></td>
   </tr>
   <tr>
