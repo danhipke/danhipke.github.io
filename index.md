@@ -26,7 +26,7 @@ The mobile application will be used to control the actual home electronics and a
 In the future, it will also allow for more precise pinpointing of user location in the room by leveraging the data from multiple tags.
 
 ### Putting It All Together
-<div style="padding-top:4px;padding-bottom:4px">
+<div style="padding-top:8px;padding-bottom:12px">
 <img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/block_diagram.png" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
 </div>
 <ol>
