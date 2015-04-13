@@ -31,10 +31,12 @@ When in this stage, the central hub is waiting for a signal from a wearable devi
 The processing stage is concerned with translating the signal received into an action to be performed.  Using the unique ID of the wearable, the central control unit will lookup user defined preferences, and create a list of possible actions to take.  Then based on the location (or possibly changes in location) one of these actions will be selected.  For example if the processing stage receives an ID of "1", and a location of "Hallway" then it might choose an action of "turn hallway lights on".
 <img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/Process_Flowchart.png" style="width:600px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
 
+####Send
 <b>Send</b>
+
 This is the final stage of the program.  After a signal is received and processed, the central control unit now has an action to take.  This action will be converted into an output signal (RF or Bluetooth), and sent to the device it wishes to control.  This stage of the program is concerned with transforming "actions" into signals, and ensuring these signals are sent correctly.  After sending this signal it will move to the Receive stage, and wait for another incoming signal.
 <img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/Send_Flowchart.png" style="width:400px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
-</br>
+
 
 ### Putting It All Together
 <div style="padding-top:8px;padding-bottom:12px">
