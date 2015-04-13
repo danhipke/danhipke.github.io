@@ -43,7 +43,6 @@ In the future, it will also allow for more precise pinpointing of user location 
 
 
 ## Bill of Materials
-<div style="width=500px">
 <table border="1" style="width=100%;text-align:center">
   <tr>
     <td>Quantity</td>
@@ -86,7 +85,6 @@ In the future, it will also allow for more precise pinpointing of user location 
     <td>$122.76</td>
   </tr>
 </table>
-</div>
 
 ## Journal
 
