@@ -25,8 +25,8 @@ The mobile application will be used to control the actual home electronics and a
 
 In the future, it will also allow for more precise pinpointing of user location in the room by leveraging the data from multiple tags.
 
-## Putting It All Together
-![alt text](https://github.com/danhipke/danhipke.github.io/raw/master/images/block_diagram.png =700x "Putting It All Together")
+### Putting It All Together
+<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/block_diagram.png" style="width:700px">
 
 ## Bill of Materials
 * x8 RFM12B Radio Transceiver ($6.67 from http://moderndevice.com/product/rfm12b-radio/)
