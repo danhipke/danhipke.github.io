@@ -1,12 +1,12 @@
 ---
 layout: page
 title: CSE477 Hardware Capstone
-tagline: F.R.E.D.
+tagline: D.R.E.W.
 ---
 {% include JB/setup %}
 
 ## Project Proposal 
-Home automation is a continuously growing field. As more and more home appliances and electronics are becoming "smart", it is important to minimize energy waste. Our product "F.R.E.D." is an attempt to solve this problem. We envision our product as a way to turn on and off various devices and electronics in your home based on how close you are to them.
+Home automation is a continuously growing field. As more and more home appliances and electronics are becoming "smart", it is important to minimize energy waste. Our product "D.R.E.W." is an attempt to solve this problem. We envision our product as a way to turn on and off various devices and electronics in your home based on how close you are to them.
 
 ### Product Details
 Our product will utilize RFID tags as a way to track the proximity of users in their homes. Specifically, users will be able to put the RFID tags around their house in rooms or other key locations in the house. The wearable device will be able to measure proximity to to these tags, or (with enough tags in a room) be able to triangulate the user's exact position in a room. The user will be able to configure which devices in the room are automatically turned off when the user is far enough from the room.
@@ -26,7 +26,7 @@ The mobile application will be used to control the actual home electronics and a
 In the future, it will also allow for more precise pinpointing of user location in the room by leveraging the data from multiple tags.
 
 ## Putting It All Together
-![alt text](https://github.com/danhipke/danhipke.github.io/blob/master/images/block_diagram.png "Putting It All Together")
+![alt text](https://github.com/danhipke/danhipke.github.io/raw/master/images/block_diagram.png "Putting It All Together")
 
 ## Bill of Materials
 * x8 RFM12B Radio Transceiver ($6.67 from http://moderndevice.com/product/rfm12b-radio/)
