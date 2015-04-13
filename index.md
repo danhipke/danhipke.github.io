@@ -25,6 +25,9 @@ The mobile application will be used to control the actual home electronics and a
 
 In the future, it will also allow for more precise pinpointing of user location in the room by leveraging the data from multiple tags.
 
+## Putting It All Together
+![alt text](https://github.com/danhipke/danhipke.github.io/blob/master/images/block_diagram.png "Putting It All Together")
+
 ## Bill of Materials
 * x8 RFM12B Radio Transceiver ($6.67 from http://moderndevice.com/product/rfm12b-radio/)
 * x8 AVR 28 Pin 20MHz 32K 6A/D - ATMega328P ($4.30 from https://www.sparkfun.com/products/9061) 
