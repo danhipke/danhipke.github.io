@@ -64,7 +64,7 @@ The application will be used to control the actual home electronics and applianc
   </tr>
   <tr>
     <td></td>
-    <td><a href="http://en.wikipedia.org/wiki/Battery_%28electricity%29">batteries</a></td>
+    <td><a href="http://en.wikipedia.org/wiki/Battery_%28electricity%29">Batteries</a></td>
     <td></td>
   </tr>
   <tr>
@@ -74,7 +74,7 @@ The application will be used to control the actual home electronics and applianc
   </tr>
   <tr>
     <td></td>
-    <td><a href="http://www.envplastics.com/sites/www.envplastics.com/files/styles/product_image/public/pcb_enclosure_uu_plastic_housing_black_1.jpg?itok=wl9KPsqr">plastic enclosure</a></td>
+    <td><a href="http://www.envplastics.com/sites/www.envplastics.com/files/styles/product_image/public/pcb_enclosure_uu_plastic_housing_black_1.jpg?itok=wl9KPsqr">3D Printed Plastic Enclosure</a></td>
     <td></td>
   </tr>
   <tr>
