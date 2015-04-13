@@ -38,8 +38,8 @@ In the future, it will also allow for more precise pinpointing of user location 
 </ol>
 
 <div style="padding-top:8px;padding-bottom:12px">
-<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/ex1.png" style="width:400px;border:2px solid black;margin-left:auto;margin-right:auto">
-<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/ex2.png" style="width:400px;border:2px solid black;margin-left:auto;margin-right:auto">
+<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/ex1.png" style="width:300px;border:2px solid black;display:inline-block;margin-left:auto;margin-right:auto">
+<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/ex2.png" style="width:300px;border:2px solid black;display:inline-block;margin-left:auto;margin-right:auto">
 </div>
 
 
