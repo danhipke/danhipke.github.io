@@ -9,7 +9,7 @@ tagline: D.R.E.W.
 Home automation is a continuously growing field. As more and more home appliances and electronics are becoming "smart", it is important to minimize energy waste. Our product "D.R.E.W." is an attempt to solve this problem. We envision our product as a way to turn on and off various devices and electronics in your home based on how close you are to them.
 
 ### Product Details
-Our product will utilize RF modules as a way to track the proximity of users in their homes. Specifically, users will be able to put the RF modules around their house in rooms or other key locations in the house. The wearable device will be able to measure proximity to to these tags and place the user in a specific zone. The user will then be able to configure specific rules for each zone.  For example, you could have all of the lights turn on when you enter the zone, and turn off whne you leave.  
+Our product will utilize RF tags as a way to track the proximity of users in their homes. Specifically, users will be able to put the RF tags around their house in rooms or other key locations in the house. The wearable device will be able to measure proximity to to these tags and place the user in a specific zone. The user will then be able to configure specific rules for each zone.  For example, you could have all of the lights turn on when you enter the zone, and turn off when you leave.  
 
 #### The Tags
 The tags will be RF modules requiring battery power. These tags will be placed centrally in a room to allow for the most accurate zones.
