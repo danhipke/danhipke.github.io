@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Week 1 Journal"
+title: "Week 1 Report"
 description: ""
 category: 
 tags: []
