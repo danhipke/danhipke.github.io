@@ -6,7 +6,7 @@ tagline: D.R.E.W.
 {% include JB/setup %}
 
 ## Project Proposal 
-Home automation is a continuously growing field. As more and more home appliances and electronics are becoming "smart", it is important to minimize energy waste. Our product "D.R.E.W." is an attempt to solve this problem. We envision our product as a way to drastically reduce energy waste by turning on and off various devices and electronics in your home based on your proximity to them.
+Home automation is a continuously growing field. As more and more home appliances and electronics are becoming "smart", it is important to minimize energy waste. Our product "D.R.E.W." is an attempt to solve this problem. We envision our product as a way to dramatically reduce energy waste by turning on and off various devices and electronics in your home based on your proximity to them.
 
 ### Product Details
 Our product will utilize RF transceivers as a way to measure the relative proximity of users in their homes to central "zones". Specifically, users will be able to put these RF transceiver modules around their homes in rooms or other key locations in the house. The wearable device will be able to measure proximity to to these modules using relative signal strength. Through a computer application, the user will then be able to associate specific home electronics appliances with each zone.  
