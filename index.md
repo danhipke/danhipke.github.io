@@ -107,6 +107,56 @@ This is the final stage of the program.  After a signal is received and processe
 
 ***
 
+## Project Schedule
+<table border="1" cellpadding="5" style="width=100%">
+  <tr style="text-align:center">
+    <td><b>Week Of</b></td>
+    <td><b>Tasks</b></td>
+  </tr>
+  <tr>
+    <td>04/12</td>
+    <td>
+      <ul>
+        <li>order components</li>
+        <li>start experimenting with components (when they arrive)</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>04/19</td>
+    <td>
+      <ul>
+        <li>implement/test basic communication between: central system & outlet switch, 
+        central system & wearable, wearable & zone modules</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>04/26</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>05/03</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>05/10</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>05/17</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>05/24</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>05/31</td>
+    <td></td>
+  </tr>
+</table>
+
 ## Journal
 
 Here is a list of our weekly journals so far:
