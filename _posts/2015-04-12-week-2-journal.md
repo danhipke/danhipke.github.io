@@ -26,10 +26,10 @@ We updated our website to use Jekyll for ease of adding pages and blog posts and
 #### Updated Product Name
 We also updated our product name.  It is now called D.R.E.W.  This stands for
 
-**D**rastically
-**R**educe
-**E**nergy
-**W**aste
+**D**rastically<br/>
+**R**educe<br/>
+**E**nergy<br/>
+**W**aste<br/>
 
 The name F.R.E.D. was just a random assortment of letters with no meaning, so at least now we have an acronym we can come up with words for.
 
