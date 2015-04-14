@@ -133,27 +133,54 @@ This is the final stage of the program.  After a signal is received and processe
   </tr>
   <tr>
     <td>04/26</td>
-    <td></td>
+    <td>
+      <ul>
+        <li>flesh out communication protocol</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td>05/03</td>
-    <td></td>
+    <td>
+      <ul>
+        <li>start working on configuration software (i.e. the program running on central system)</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td>05/10</td>
-    <td></td>
+    <td>
+      <ul>
+        <li>[contingency time]</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td>05/17</td>
-    <td></td>
+    <td>
+      <ul>
+        <li>[contingency time]</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td>05/24</td>
-    <td></td>
+    <td>
+      <ul>
+        <li>finalize configuration software</li>
+        <li>draft/print casing</li>
+        <li>work on project extensions if ahead of schedule</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td>05/31</td>
-    <td></td>
+    <td>
+      <ul>
+        <li>polish everything</li>
+        <li>prep for demo</li>
+      </ul>
+    </td>
   </tr>
 </table>
 
