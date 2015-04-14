@@ -1,4 +1,4 @@
---B
+---
 layout: page
 title: CSE477 Hardware Capstone
 tagline: D.R.E.W.
