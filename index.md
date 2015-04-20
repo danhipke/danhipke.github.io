@@ -6,7 +6,7 @@ tagline: D.R.E.W.
 {% include JB/setup %}
 
 ## Project Proposal 
-Home automation is a continuously growing field. As more and more home appliances and electronics are becoming "smart", it is important to minimize energy waste. Our product "D.R.E.W." is an attempt to solve this problem. We envision our product as a way to drastically reduce energy waste by turning on and off various devices and electronics in your home based on your proximity to them.
+Home automation is a continuously growing field. As more and more home appliances and electronics are becoming "smart", it is important to minimize energy waste. Our product "D.R.E.W." is an attempt to solve this problem. We envision our product as a way to dramatically reduce energy waste by turning on and off various devices and electronics in your home based on your proximity to them.
 
 ### Product Details
 Our product will utilize RF transceivers as a way to measure the relative proximity of users in their homes to central "zones". Specifically, users will be able to put these RF transceiver modules around their homes in rooms or other key locations in the house. The wearable device will be able to measure proximity to to these modules using relative signal strength. Through a computer application, the user will then be able to associate specific home electronics appliances with each zone.  
@@ -59,6 +59,12 @@ This is the final stage of the program.  After a signal is received and processe
 <img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/exc.png" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
 </div>
 
+### Project Extensions
+If we accomplish our goals listed above before the project deadline is reached, we will attempt to implement one or a few of the following goals:
+* daisy-chaining the zone modules with the USB dongle to allow for messages to be sent from the wearable when it can't directly contact the USB dongle
+* visual location tracking throughout your house
+* communication with RFID tags and the RFM12B transceivers 
+
 ***
 
 ## Bill of Materials
@@ -106,6 +112,83 @@ This is the final stage of the program.  After a signal is received and processe
 </table>
 
 ***
+
+## Project Schedule
+<table border="1" cellpadding="5" style="width=100%">
+  <tr style="text-align:center">
+    <td><b>Week Of</b></td>
+    <td><b>Tasks</b></td>
+  </tr>
+  <tr>
+    <td>04/12</td>
+    <td>
+      <ul>
+        <li>order components</li>
+        <li>start experimenting with components (when they arrive)</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>04/19</td>
+    <td>
+      <ul>
+        <li>implement/test basic communication between: central system & outlet switch, 
+        central system & wearable, wearable & zone modules</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>04/26</td>
+    <td>
+      <ul>
+        <li>flesh out communication protocol</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>05/03</td>
+    <td>
+      <ul>
+        <li>start working on configuration software (i.e. the program running on central system)</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>05/10</td>
+    <td>
+      <ul>
+        <li>[contingency time]</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>05/17</td>
+    <td>
+      <ul>
+        <li>[contingency time]</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>05/24</td>
+    <td>
+      <ul>
+        <li>finalize configuration software</li>
+        <li>draft/print casing</li>
+        <li>work on project extensions if ahead of schedule</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>05/31</td>
+    <td>
+      <ul>
+        <li>polish everything</li>
+        <li>prep for demo</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ## Journal
 
