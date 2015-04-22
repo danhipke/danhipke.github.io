@@ -19,7 +19,10 @@ The zone modules will be RF transceivers connected to an ATMega328 chip and batt
 We original envisioned these zone modules being passive or active RFID tags, but due to the high price of an ultra-high frequency RFID reader/writer, we were not able to meet the project budget using the RFID approach. 
 
 #### The Wearable
-The wearable will be a bracelet with an RF transceiver, ATMega328 chip and battery similar to the zone modules. The bracelet will use the signal strength from the zone modules to measure proximity. A higher signal strength means the user is closer to the zone module and as a result, closer to the zone. A lower signal strength means the user is far away from the zone. The amount of signal strength required for a user to be "in" a zone will be configurable through the desktop application to accommodate varying room sizes.  The only purpose of the wearable is as a way to track the user's position and communicate it back to the desktop application/central module.  
+The wearable will be a bracelet with an RF transceiver, ATMega328 chip and battery similar to the zone modules. The bracelet will use the signal strength from the zone modules to measure proximity. A higher signal strength means the user is closer to the zone module and as a result, closer to the zone. A lower signal strength means the user is far away from the zone. The amount of signal strength required for a user to be "in" a zone will be configurable through the desktop application to accommodate varying room sizes.  The only purpose of the wearable is as a way to track the user's position and communicate it back to the desktop application/central module.
+
+<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/case.jpg" style="width:300px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">  
+Preliminary wearable housing design.
 
 #### Energy Regulator
 The regulator will initially be a Bluetooth-controlled outlet that plugs into an existing home outlet.  By communicating with the desktop application through Bluetooth connection, this Bluetooth-controlled outlet will regulate the flow of electricity from the outlet to the electronic to be controlled. For our demo, we will be using a lamp/light source plugged into this outlet.
