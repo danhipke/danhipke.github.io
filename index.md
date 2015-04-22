@@ -96,6 +96,11 @@ If we accomplish our goals listed above before the project deadline is reached, 
   </tr>
   <tr>
     <td>2</td>
+    <td><a href="http://www.ebay.com/itm/5V-Mini-USB-1A-Lithium-Battery-Charging-Lipo-Charger-Module-for-Arduino-A866-/131304520047?pt=LH_DefaultDomain_0&hash=item1e925bf96f">5V Mini USB 1A Lithium Battery Charger</a></td>
+    <td>$1.49</td>
+  </tr>
+  <tr>
+    <td>2</td>
     <td><a href="http://store.arduino.cc/product/A000059">USB 2 Serial Converter (USB Mini)</a></td>
     <td>$10.58</td>
   </tr>
@@ -117,7 +122,7 @@ If we accomplish our goals listed above before the project deadline is reached, 
   <tr>
     <td></td>
     <td>TOTAL (so far)</td>
-    <td>$185.42</td>
+    <td>$188.40</td>
   </tr>
 </table>
 
