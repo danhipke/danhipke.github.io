@@ -30,7 +30,7 @@ The wearable will be a bracelet with an RF transceiver, ATMega328 chip and batte
 <img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/Schematic.png" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
 </div>
 
-The wearable device will use an Atmega 328 microprocessor connected to the RF module using the SPI interface.
+The wearable device will use an Atmega 328 microprocessor connected to the RF module using the SPI interface.  Power will be either connected directly to the battery or using a regulator to maintain 3.3V, such as MCP1252.
 
 ***
 
