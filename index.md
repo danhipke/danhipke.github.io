@@ -21,7 +21,7 @@ We original envisioned these zone modules being passive or active RFID tags, but
 #### The Wearable
 The wearable will be a bracelet with an RF transceiver, ATMega328 chip and battery similar to the zone modules. The bracelet will use the signal strength from the zone modules to measure proximity. A higher signal strength means the user is closer to the zone module and as a result, closer to the zone. A lower signal strength means the user is far away from the zone. The amount of signal strength required for a user to be "in" a zone will be configurable through the desktop application to accommodate varying room sizes.  The only purpose of the wearable is as a way to track the user's position and communicate it back to the desktop application/central module.
 
-<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/case.png" style="width:450px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
+<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/case2.png" style="width:450px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
 
 <p style="text-align:center"><i>Preliminary wearable housing design.</i></p>
 
