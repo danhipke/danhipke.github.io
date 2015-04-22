@@ -81,8 +81,8 @@ If we accomplish our goals listed above before the project deadline is reached, 
   </tr>
   <tr>
     <td>8</td>
-    <td><a href="https://www.sparkfun.com/products/9061">ATMega328P</a></td>
-    <td>$4.30</td>
+    <td><a href="https://www.sparkfun.com/products/9261">ATMega328 - TQFP</a></td>
+    <td>$4.25</td>
   </tr>
   <tr>
     <td>1</td>
@@ -90,14 +90,24 @@ If we accomplish our goals listed above before the project deadline is reached, 
     <td>$35.00</td>
   </tr>
   <tr>
-    <td></td>
-    <td><a href="http://en.wikipedia.org/wiki/Battery_%28electricity%29">Batteries</a></td>
-    <td></td>
+    <td>2</td>
+    <td><a href="http://www.ebay.com/itm/Lithium-Ion-Polymer-3-7v-Rechargeable-Battery-150mAh-Electronic-Projects-Arduino-/171267166692?pt=LH_DefaultDomain_0&hash=item27e05191e4">Lithium Ion Polymer 3.7v Rechargeable Battery 150mAh</a></td>
+    <td>$5.95</td>
   </tr>
   <tr>
-    <td></td>
-    <td><a href="http://en.wikipedia.org/wiki/Printed_circuit_board">PCB</a></td>
-    <td></td>
+    <td>2</td>
+    <td><a href="http://store.arduino.cc/product/A000059">USB 2 Serial Converter (USB Mini)</a></td>
+    <td>$10.58</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td><a href="http://en.wikipedia.org/wiki/Printed_circuit_board">Wearable PCB</a></td>
+    <td>$5.00</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td><a href="http://en.wikipedia.org/wiki/Printed_circuit_board">Zone Module PCB</a></td>
+    <td>$5.00</td>
   </tr>
   <tr>
     <td></td>
@@ -107,7 +117,7 @@ If we accomplish our goals listed above before the project deadline is reached, 
   <tr>
     <td></td>
     <td>TOTAL (so far)</td>
-    <td>$122.76</td>
+    <td>$185.42</td>
   </tr>
 </table>
 
