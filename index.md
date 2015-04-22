@@ -91,7 +91,7 @@ If we accomplish our goals listed above before the project deadline is reached, 
   </tr>
   <tr>
     <td>2</td>
-    <td><a href="http://www.ebay.com/itm/Lithium-Ion-Polymer-3-7v-Rechargeable-Battery-150mAh-Electronic-Projects-Arduino-/171267166692?pt=LH_DefaultDomain_0&hash=item27e05191e4">Lithium Ion Polymer 3.7v Rechargeable Battery 150mAh</a></td>
+    <td><a href="http://www.ebay.com/itm/Lithium-Ion-Polymer-3-7v-Rechargeable-Battery-150mAh-Electronic-Projects-Arduino-/171267166692?pt=LH_DefaultDomain_0&hash=item27e05191e4">Lithium Ion Polymer 3.7v Rechargeable Battery 150mAh*</a></td>
     <td>$5.95</td>
   </tr>
   <tr>
@@ -125,7 +125,7 @@ If we accomplish our goals listed above before the project deadline is reached, 
     <td>$188.40</td>
   </tr>
 </table>
-
+\*The ATMega328 uses ~3.6 mA of current, while the RF module uses about ~25 mA when transmitting and ~0.6 µA when on standby. We estimate that about 5% of the time, the RF module will be transmitting. Therefore, the whole wearable will draw about 4.85 mA of current, requiring 24 hours \* 4.85 mA = 116.4 mAh of charge to last a full day
 ***
 
 ## Project Schedule
