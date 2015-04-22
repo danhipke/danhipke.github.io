@@ -32,6 +32,7 @@ The wearable will be a bracelet with an RF transceiver, ATMega328 chip and batte
 
 <li>The wearable device will use an Atmega 328 microprocessor connected to the RF module using the SPI interface.</li>
 
+***
 
 #### Energy Regulator
 The regulator will initially be a Bluetooth-controlled outlet that plugs into an existing home outlet.  By communicating with the desktop application through Bluetooth connection, this Bluetooth-controlled outlet will regulate the flow of electricity from the outlet to the electronic to be controlled. For our demo, we will be using a lamp/light source plugged into this outlet.
