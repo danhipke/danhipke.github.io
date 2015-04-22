@@ -95,7 +95,7 @@ If we accomplish our goals listed above before the project deadline is reached, 
   <tr>
     <td>8</td>
     <td><a href="https://www.sparkfun.com/products/9261">ATMega328 - TQFP</a></td>
-    <td>$4.25</td>
+    <td>$3.43</td>
   </tr>
   <tr>
     <td>1</td>
