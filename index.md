@@ -63,6 +63,14 @@ This is the final stage of the program.  After a signal is received and processe
 <img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/exc.png" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
 </div>
 
+### Circuit Schematic
+<div style="padding-top:8px;padding-bottom:12px">
+<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/Schematic.png" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
+</div>
+<ol>
+<li>The wearable device will use an Atmega 328 microprocessor connected to the RF module using the SPI interface.</li>
+</br>
+
 ### Project Extensions
 If we accomplish our goals listed above before the project deadline is reached, we will attempt to implement one or a few of the following goals:
 * daisy-chaining the zone modules with the USB dongle to allow for messages to be sent from the wearable when it can't directly contact the USB dongle
