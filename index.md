@@ -23,7 +23,7 @@ The wearable will be a bracelet with an RF transceiver, ATMega328 chip and batte
 
 <img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/case.jpg" style="width:450px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
 
-<p align="center">Preliminary wearable housing design.</p>
+<p style="text-align:center">Preliminary wearable housing design.</p>
 
 #### Energy Regulator
 The regulator will initially be a Bluetooth-controlled outlet that plugs into an existing home outlet.  By communicating with the desktop application through Bluetooth connection, this Bluetooth-controlled outlet will regulate the flow of electricity from the outlet to the electronic to be controlled. For our demo, we will be using a lamp/light source plugged into this outlet.
