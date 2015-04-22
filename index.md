@@ -34,6 +34,15 @@ The wearable device will use an Atmega 328 microprocessor connected to the RF mo
 
 ***
 
+### Testing
+<div style="padding-top:8px;padding-bottom:12px">
+<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/testing.jpg" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
+</div>
+
+The components set up on a breadboard using DIP packages for testing.
+
+***
+
 #### Energy Regulator
 The regulator will initially be a Bluetooth-controlled outlet that plugs into an existing home outlet.  By communicating with the desktop application through Bluetooth connection, this Bluetooth-controlled outlet will regulate the flow of electricity from the outlet to the electronic to be controlled. For our demo, we will be using a lamp/light source plugged into this outlet.
 
