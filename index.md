@@ -19,7 +19,29 @@ The zone modules will be RF transceivers connected to an ATMega328 chip and batt
 We original envisioned these zone modules being passive or active RFID tags, but due to the high price of an ultra-high frequency RFID reader/writer, we were not able to meet the project budget using the RFID approach. 
 
 #### The Wearable
-The wearable will be a bracelet with an RF transceiver, ATMega328 chip and battery similar to the zone modules. The bracelet will use the signal strength from the zone modules to measure proximity. A higher signal strength means the user is closer to the zone module and as a result, closer to the zone. A lower signal strength means the user is far away from the zone. The amount of signal strength required for a user to be "in" a zone will be configurable through the desktop application to accommodate varying room sizes.  The only purpose of the wearable is as a way to track the user's position and communicate it back to the desktop application/central module.  
+The wearable will be a bracelet with an RF transceiver, ATMega328 chip and battery similar to the zone modules. The bracelet will use the signal strength from the zone modules to measure proximity. A higher signal strength means the user is closer to the zone module and as a result, closer to the zone. A lower signal strength means the user is far away from the zone. The amount of signal strength required for a user to be "in" a zone will be configurable through the desktop application to accommodate varying room sizes.  The only purpose of the wearable is as a way to track the user's position and communicate it back to the desktop application/central module.
+
+<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/case2.png" style="width:450px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
+
+<p style="text-align:center"><i>Preliminary wearable housing design.</i></p>
+
+### Circuit Schematic
+<div style="padding-top:8px;padding-bottom:12px">
+<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/Schematic.png" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
+</div>
+
+The wearable device will use an Atmega 328 microprocessor connected to the RF module using the SPI interface.  Power will be either connected directly to the battery or using a regulator to maintain 3.3V, such as MCP1252.
+
+***
+
+### Testing
+<div style="padding-top:8px;padding-bottom:12px">
+<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/testing.jpg" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
+</div>
+
+The components set up on a breadboard using DIP packages for testing.
+
+***
 
 #### Energy Regulator
 The regulator will initially be a Bluetooth-controlled outlet that plugs into an existing home outlet.  By communicating with the desktop application through Bluetooth connection, this Bluetooth-controlled outlet will regulate the flow of electricity from the outlet to the electronic to be controlled. For our demo, we will be using a lamp/light source plugged into this outlet.
@@ -81,8 +103,8 @@ If we accomplish our goals listed above before the project deadline is reached, 
   </tr>
   <tr>
     <td>8</td>
-    <td><a href="https://www.sparkfun.com/products/9061">ATMega328P</a></td>
-    <td>$4.30</td>
+    <td><a href="https://www.sparkfun.com/products/9261">ATMega328 - TQFP</a></td>
+    <td>$3.43</td>
   </tr>
   <tr>
     <td>1</td>
@@ -90,14 +112,29 @@ If we accomplish our goals listed above before the project deadline is reached, 
     <td>$35.00</td>
   </tr>
   <tr>
-    <td></td>
-    <td><a href="http://en.wikipedia.org/wiki/Battery_%28electricity%29">Batteries</a></td>
-    <td></td>
+    <td>2</td>
+    <td><a href="http://www.ebay.com/itm/Lithium-Ion-Polymer-3-7v-Rechargeable-Battery-150mAh-Electronic-Projects-Arduino-/171267166692?pt=LH_DefaultDomain_0&hash=item27e05191e4">Lithium Ion Polymer 3.7v Rechargeable Battery 150mAh*</a></td>
+    <td>$5.95</td>
   </tr>
   <tr>
-    <td></td>
-    <td><a href="http://en.wikipedia.org/wiki/Printed_circuit_board">PCB</a></td>
-    <td></td>
+    <td>2</td>
+    <td><a href="http://www.ebay.com/itm/5V-Mini-USB-1A-Lithium-Battery-Charging-Lipo-Charger-Module-for-Arduino-A866-/131304520047?pt=LH_DefaultDomain_0&hash=item1e925bf96f">5V Mini USB 1A Lithium Battery Charger</a></td>
+    <td>$1.49</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td><a href="http://store.arduino.cc/product/A000059">USB 2 Serial Converter (USB Mini)</a></td>
+    <td>$10.58</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td><a href="http://en.wikipedia.org/wiki/Printed_circuit_board">Wearable PCB</a></td>
+    <td>$5.00</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td><a href="http://en.wikipedia.org/wiki/Printed_circuit_board">Zone Module PCB</a></td>
+    <td>$5.00</td>
   </tr>
   <tr>
     <td></td>
@@ -107,10 +144,10 @@ If we accomplish our goals listed above before the project deadline is reached, 
   <tr>
     <td></td>
     <td>TOTAL (so far)</td>
-    <td>$122.76</td>
+    <td>$188.40</td>
   </tr>
 </table>
-
+\*The ATMega328 uses ~3.6 mA of current, while the RF module uses about ~25 mA when transmitting and ~0.6 µA when on standby. We estimate that about 5% of the time, the RF module will be transmitting. Therefore, the whole wearable will draw about 4.85 mA of current, requiring 24 hours \* 4.85 mA = 116.4 mAh of charge to last a full day
 ***
 
 ## Project Schedule
