@@ -100,12 +100,12 @@ If we accomplish our goals listed above before the project deadline is reached, 
     <td><b>Price</b></td>
   </tr>
   <tr>
-    <td>8</td>
+    <td>7</td>
     <td><a href="http://moderndevice.com/product/rfm12b-radio">RFM12B Radio Transceiver</a></td>
     <td>$6.67</td>
   </tr>
   <tr>
-    <td>8</td>
+    <td>5</td>
     <td><a href="https://www.sparkfun.com/products/9261">ATMega328 - TQFP</a></td>
     <td>$3.43</td>
   </tr>
@@ -116,13 +116,13 @@ If we accomplish our goals listed above before the project deadline is reached, 
   </tr>
   <tr>
     <td>2</td>
-    <td><a href="http://www.ebay.com/itm/Lithium-Ion-Polymer-3-7v-Rechargeable-Battery-150mAh-Electronic-Projects-Arduino-/171267166692?pt=LH_DefaultDomain_0&hash=item27e05191e4">Lithium Ion Polymer 3.7v Rechargeable Battery 150mAh*</a></td>
+    <td><a href="https://www.adafruit.com/products/1317">Lithium Ion Polymer Battery - 3.7v 150mAh</a></td>
     <td>$5.95</td>
   </tr>
   <tr>
-    <td>2</td>
-    <td><a href="http://www.ebay.com/itm/5V-Mini-USB-1A-Lithium-Battery-Charging-Lipo-Charger-Module-for-Arduino-A866-/131304520047?pt=LH_DefaultDomain_0&hash=item1e925bf96f">5V Mini USB 1A Lithium Battery Charger</a></td>
-    <td>$1.49</td>
+    <td>1</td>
+    <td><a href="https://www.adafruit.com/products/1905">Adafruit Mini Lipo w/Mini-B USB Jack - USB LiIon/LiPoly charger - v1</a></td>
+    <td>$6.95</td>
   </tr>
   <tr>
     <td>2</td>
@@ -150,7 +150,6 @@ If we accomplish our goals listed above before the project deadline is reached, 
     <td>$188.40</td>
   </tr>
 </table>
-\*The ATMega328 uses ~3.6 mA of current, while the RF module uses about ~25 mA when transmitting and ~0.6 µA when on standby. We estimate that about 5% of the time, the RF module will be transmitting. Therefore, the whole wearable will draw about 4.85 mA of current, requiring 24 hours \* 4.85 mA = 116.4 mAh of charge to last a full day
 ***
 
 ## Project Schedule
