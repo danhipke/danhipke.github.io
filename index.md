@@ -64,7 +64,7 @@ This is the final stage of the program.  After a signal is received and processe
 <img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/Send_Flowchart.png" style="width:500px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
 
 #### D.R.E.W. System Tool
-This desktop application allows users to setup and configure their D.R.E.W. system. Check out the preliminary <a href="https://github.com/danhipke/danhipke.github.io/raw/master/images/storyboard.pdf">UI storyboard</a>.
+This desktop application allows users to setup and configure their D.R.E.W. system. Check out the preliminary <a href="https://github.com/danhipke/danhipke.github.io/raw/master/images/storyboard.pdf" target="_blank">UI storyboard</a>.
 
 ***
 
