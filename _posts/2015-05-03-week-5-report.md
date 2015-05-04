@@ -21,12 +21,12 @@ For the hardware, we designed and ordered a PCB for our wearable.  One side cont
 
 We also finalized our wireless message structure for communication between the wearable, zone module and USB dongle.
 
-<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/wireless_message_format.png">
+<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/wireless_message_format.png" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
 
 ### Enclosure
 Lastly, we created our enclosure in Solidworks.  The current dimensions are 1.25" by 1.75" by .35".  This should allow more than enough space for our PCB and battery.
 
-<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/enclosure.JPG">
+<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/enclosure.JPG" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
 
 ### Next Steps
 This next week, we be combining our backend and frontend application code, as well as working on our Arduino code while we wait for our PCBs to come.  We will also be refining our case design as our parts come in and we see how to fit it all together.
