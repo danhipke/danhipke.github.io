@@ -16,13 +16,17 @@ On the application backend, we were able to get two way serial communication wor
 ### Hardware
 For the hardware, we designed and ordered a PCB for our wearable.  One side contains the wireless module while the other side contains the Arduino chip, battery leads/regulator and resistors to allow us to correctly program the Arduino.
 
-<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/PCB1.png" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
-<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/PCB2.png" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
+<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/PCB1.png">
+<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/PCB2.png">
 
 We also finalized our wireless message structure for communication between the wearable, zone module and USB dongle.
 
-<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/wireless_message_format.png" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
+<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/wireless_message_format.png">
 
+### Enclosure
 Lastly, we created our enclosure in Solidworks.  The current dimensions are 1.25" by 1.75" by .35".  This should allow more than enough space for our PCB and battery.
 
-<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/enclosure.JPG" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
+<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/enclosure.JPG">
+
+### Next Steps
+This next week, we be combining our backend and frontend application code, as well as working on our Arduino code while we wait for our PCBs to come.  We will also be refining our case design as our parts come in and we see how to fit it all together.
