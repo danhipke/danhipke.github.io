@@ -70,14 +70,14 @@ This desktop application allows users to setup and configure their D.R.E.W. syst
 
 ### Putting It All Together
 <div style="padding-top:8px;padding-bottom:12px">
-<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/block_diagram.png" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
+<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/block_diagram.jpg" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
 </div>
 <ol>
-<li>The wearable device periodically sends out discovery signals to determine if any zone modules are in range. If a zone module receives such a signal, it sends back to the wearble an acknowledgement signal containing its unique identifier.</li>
+<li>The wearable periodically (once a second) broadcasts a signal containing its unique werable ID to all zone modules in range.</li>
 </br>
-<li>When the wearable receives an acknowledgement signal from a zone module, it sends a message to the central system which contains the unique identifier of the acknowledging zone module as well as the strength of the signal received by the wearable. The central system uses this information to determine the relative location of the device-wearing user. (Note: For the current development phase, the central system is a general purpose computer with RF and Bluetooth transceivers.)</li>
+<li>When a zone module receives a signal from a wearable, it then relays a message to the central system containing its unique zone ID as well as the ID of the wearable that sent the initial signal and a measure of the strength of that signal.</li>
 </br>
-<li>By checking the user's current location against the user-defined software settings, the central system determines whether messages must be sent to any electronics to manipulate their energy usage. (Note: For the current development phase, we will be using Bluetooth-controlled power outlet switches which will allow the central system to power on/off simple electronics, such as lamps or TVs.)</li>
+<li>Based on messages from the zone modules, the central system determines whether any wearables have entered or exited any zones. If any such changes have occurred, the central system will determine what commands need to be sent to the connected Bluetooth devices. The threshold of zones, which Bluetooth devices are associated with each zone, and what actions those device should take on zone entry/exit are all defined by the user using the D.R.E.W. System Tool software.</li>
 </ol>
 
 <div style="padding-top:20px;padding-bottom:12px">
