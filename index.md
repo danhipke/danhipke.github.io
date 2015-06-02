@@ -25,7 +25,7 @@ The wearable will be a bracelet with an RF transceiver, ATMega328 chip and batte
 
 <p style="text-align:center"><i>Preliminary wearable housing design.</i></p>
 
-### Circuit Schematic
+##### Circuit Schematic
 <div style="padding-top:8px;padding-bottom:12px">
 <img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/Schematic.png" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
 </div>
@@ -34,7 +34,7 @@ The wearable device will use an Atmega 328 microprocessor connected to the RF mo
 
 ***
 
-### Testing
+##### Testing
 <div style="padding-top:8px;padding-bottom:12px">
 <img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/testing.jpg" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
 </div>
