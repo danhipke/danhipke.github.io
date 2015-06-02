@@ -45,12 +45,12 @@ The application will be used to control the actual home electronics and applianc
 
 <b>Receive:</b>
 When in this stage, the central hub is waiting for a signal from a wearable device.  Using a transceiver (RF or Bluetooth) as the input device, it waits until a properly formatted signal is sent from the wearable to the computer.  This signal will contain information about the wearable (device ID, location, etc).  Upon receiving this signal, the program moves to processing stage.
-<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/Receive_Flowchart.png" style="width:600px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">  
+<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/bluetooth_controller.png" style="width:600px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">  
 
 
 <b>Process:</b>
 The processing stage is concerned with translating the signal received into an action to be performed.  Using the unique ID of the wearable, the central control unit will lookup user defined preferences, and create a list of possible actions to take.  Then based on the location (or possibly changes in location) one of these actions will be selected.  For example if the processing stage receives an ID of "1", and a location of "Hallway" then it might choose an action of "turn hallway lights on".
-<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/Process_Flowchart.png" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">  
+<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/serial_reader.png" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">  
 
 
 <b>Send:</b>
