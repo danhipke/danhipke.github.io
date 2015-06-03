@@ -14,7 +14,7 @@ Our product will utilize RF transceivers as a way to measure the relative proxim
 For demo purposes, we will be controlling an outlet connected to a lamp in a room with a single RF module for that zone.  When the user enters the room (is near the RF module), the outlet will be powered on and the lamp will turn on.  When the user leaves the room, the outlet will be powered off and the lamp with it.
 
 <center><div class="video">
-<iframe width="820" height="490" modestbranding="1" src="https://www.youtube.com/embed/ZIReNE54x5g" frameborder="0" allowfullscreen></iframe>
+<iframe width="820" height="492" modestbranding="1" src="https://www.youtube.com/embed/ZIReNE54x5g" frameborder="0" allowfullscreen></iframe>
 </div></center>
 
 #### The Zone Modules
@@ -25,21 +25,21 @@ We original envisioned these zone modules being passive or active RFID tags, but
 #### The Wearable
 The wearable will be a bracelet with an RF transceiver, ATMega328 chip and battery similar to the zone modules. The bracelet will use the signal strength from the zone modules to measure proximity. A higher signal strength means the user is closer to the zone module and as a result, closer to the zone. A lower signal strength means the user is far away from the zone. The amount of signal strength required for a user to be "in" a zone will be configurable through the desktop application to accommodate varying room sizes.  The only purpose of the wearable is as a way to track the user's position and communicate it back to the desktop application/central module.
 
-<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/case2.png" style="width:450px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
+<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/render.jpg" style="width:450px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
 
-<p style="text-align:center"><i>Preliminary wearable housing design.</i></p>
+<p style="text-align:center"><i>Wearable housing design</i></p>
 
 <div style="padding-top:8px;padding-bottom:12px">
-<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/Schematic.png" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
+<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/wearablediagram.png" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
 </div>
 
-<p style="text-align:center"><i>Circuit Schematic - The wearable device will use an Atmega 328 microprocessor connected to the RF module using the SPI interface.  Power will be either connected directly to the battery or using a regulator to maintain 3.3V, such as MCP1252.</i></p>
+<p style="text-align:center"><i>Circuit Schematic - The wearable device uses an Atmega 328 microprocessor connected to the RF module with the SPI interface.  Power is regulated from the battery to 3V.  The battery on board charging circuitry allows the battery to be charged through the USB connection.</i></p>
 
 <div style="padding-top:8px;padding-bottom:12px">
 <img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/testing.jpg" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
 </div>
 
-<p style="text-align:center"><i>The components set up on a breadboard using DIP packages for testing.</i></p>
+<p style="text-align:center"><i>Proof of concept using DIP packages for testing.</i></p>
 
 #### Energy Regulator
 The regulator will initially be a Bluetooth-controlled outlet that plugs into an existing home outlet.  By communicating with the desktop application through Bluetooth connection, this Bluetooth-controlled outlet will regulate the flow of electricity from the outlet to the electronic to be controlled. For our demo, we will be using a lamp/light source plugged into this outlet.
