@@ -14,7 +14,7 @@ Our product will utilize RF transceivers as a way to measure the relative proxim
 For demo purposes, we will be controlling an outlet connected to a lamp in a room with a single RF module for that zone.  When the user enters the room (is near the RF module), the outlet will be powered on and the lamp will turn on.  When the user leaves the room, the outlet will be powered off and the lamp with it.
 
 <center><div class="video">
-<iframe width="853" height="505" src="https://www.youtube.com/embed/ZIReNE54x5g" frameborder="0" allowfullscreen></iframe>
+<iframe width="820" height="500" modestbranding="1" src="https://www.youtube.com/embed/ZIReNE54x5g" frameborder="0" allowfullscreen></iframe>
 </div></center>
 
 #### The Zone Modules
