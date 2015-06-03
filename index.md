@@ -9,7 +9,7 @@ tagline: D.R.E.W.
 Home automation is a continuously growing field. As more and more home appliances and electronics are becoming "smart", it is important to minimize energy waste. Our product "D.R.E.W." is an attempt to solve this problem. We envision our product as a way to dramatically reduce energy waste by turning on and off various devices and electronics in your home based on your proximity to them.
 
 ### Product Details
-Our product will utilize RF transceivers as a way to measure the relative proximity of users in their homes to central "zones". Specifically, users will be able to put these RF transceiver modules around their homes in rooms or other key locations in the house. The wearable device will be able to measure proximity to to these modules using relative signal strength. Through a computer application, the user will then be able to associate specific home electronics appliances with each zone.  
+Our product utilizes 915MHz RF transceivers as a way to measure the relative proximity of users in their homes to central "zones". Specifically, users can to put these RF transceiver modules around their homes in rooms or other key locations in the house. The wearable device will be able to measure proximity to to these modules using relative signal strength. Through a computer application, the user will then be able to associate specific home electronics appliances, such as lights, with each zone.  
 
 For demo purposes, we will be controlling an outlet connected to a lamp in a room with a single RF module for that zone.  When the user enters the room (is near the RF module), the outlet will be powered on and the lamp will turn on.  When the user leaves the room, the outlet will be powered off and the lamp with it.
 
@@ -27,7 +27,7 @@ The wearable will be a bracelet with an RF transceiver, ATMega328 chip and batte
 
 <img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/render.jpg" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
 
-<p style="text-align:center"><i>Wearable housing design</i></p>
+<p style="text-align:center"><i>Wearable housing design allows for the use of any 18mm watch band.</i></p>
 
 <div style="padding-top:8px;padding-bottom:12px">
 <img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/wearablediagram.png" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
@@ -36,10 +36,10 @@ The wearable will be a bracelet with an RF transceiver, ATMega328 chip and batte
 <p style="text-align:center"><i>Circuit Schematic - The wearable device uses an Atmega 328 microprocessor connected to the RF module with the SPI interface.  Power is regulated from the battery to 3V.  The battery on board charging circuitry allows the battery to be charged through the USB connection.</i></p>
 
 <div style="padding-top:8px;padding-bottom:12px">
-<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/testing.jpg" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
+<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/cse477wearable-1.jpg" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
 </div>
 
-<p style="text-align:center"><i>Proof of concept using DIP packages for testing.</i></p>
+<p style="text-align:center"><i>Assembled PCB for Wearable Module</i></p>
 
 #### Energy Regulator
 The regulator will initially be a Bluetooth-controlled outlet that plugs into an existing home outlet.  By communicating with the desktop application through Bluetooth connection, this Bluetooth-controlled outlet will regulate the flow of electricity from the outlet to the electronic to be controlled. For our demo, we will be using a lamp/light source plugged into this outlet.
