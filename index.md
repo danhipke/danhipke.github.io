@@ -91,6 +91,11 @@ If we accomplish our goals listed above before the project deadline is reached, 
 ***
 
 ## Bill of Materials
+
+<div style="padding-top:20px;padding-bottom:12px">
+<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/CostAnalysis.PNG" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
+</div>
+<!--
 <table border="1" cellpadding="5" style="width=100%">
   <tr style="text-align:center">
     <td><b>Quantity</b></td>
@@ -148,6 +153,7 @@ If we accomplish our goals listed above before the project deadline is reached, 
     <td>$188.40</td>
   </tr>
 </table>
+-->	
 ***
 
 ## Project Schedule
