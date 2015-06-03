@@ -13,6 +13,8 @@ Our product will utilize RF transceivers as a way to measure the relative proxim
 
 For demo purposes, we will be controlling an outlet connected to a lamp in a room with a single RF module for that zone.  When the user enters the room (is near the RF module), the outlet will be powered on and the lamp will turn on.  When the user leaves the room, the outlet will be powered off and the lamp with it.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZIReNE54x5g" frameborder="0" allowfullscreen></iframe>
+
 #### The Zone Modules
 The zone modules will be RF transceivers connected to an ATMega328 chip and battery. These modules will be placed centrally in a room to allow for an easy calculation of the boundaries of the room.  These zone modules will be sending out an RF signal at 915 MHz.  The frequency and strength of the signal is high enough to accommodate large room sizes. The wearable will communicate with these modules to detect when a user has entered a specific zone.
 
