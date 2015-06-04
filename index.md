@@ -49,12 +49,14 @@ The central control application will serve two main purposes: provide a graphica
 
 <b>Serial Reader:</b>
 The Serial Reader is responsible for the initial reading and processing of messages from the hardware. It is connected over serial to the USB module, and constantly reads any messages that the USB module receives. It then proceeds to do some initial processing, such as ignoring unknown hardware. It then attempts to determine if the system state has changed. If any actions need to be taken, it puts a work item into a queue that tells the bluetooth controller which actions to take.
+
 <div style="padding-top:20px;padding-bottom:12px">
 <img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/serial_reader.png" style="width:800px;border:none;display:block;margin-left:auto;margin-right:auto">
 </div>
 
 <b>Bluetooth Controller:</b>
 The bluetooth controller reads items from a work queue, each of which contains information regarding the relavent zone and entry/exit action. The controller then finds all controllable devices in the zone, and attempts to change their state the new state. It will attempt to connect to disconnected devices, but will only do so a few times to avoid hanging the system.
+
 <div style="padding-top:20px;padding-bottom:12px">
 <img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/bluetooth_controller.png" style="width:800px;border:none;display:block;margin-left:auto;margin-right:auto">  
 </div>
