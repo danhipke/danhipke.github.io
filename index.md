@@ -44,22 +44,18 @@ The wearable will be a bracelet with an RF transceiver, ATMega328 chip and batte
 #### Energy Regulator
 The regulator will initially be a Bluetooth-controlled outlet that plugs into an existing home outlet.  By communicating with the desktop application through Bluetooth connection, this Bluetooth-controlled outlet will regulate the flow of electricity from the outlet to the electronic to be controlled. For our demo, we will be using a lamp/light source plugged into this outlet.
 
-#### The Central Control Application 
-The application will be used to control the actual home electronics and appliances. It will communicate with the energy regulator and wearable. When the wearable sends a signal that the user has left/entered a room, the application will send a signal to all energy regulators in the room to turn on/shut off all regulated electronics appropriately. This application will also let users configure which zone modules and energy regulators correspond to which rooms. If time allows, the application will connect to IFTTT and be able to be used in IFTTT recepies. At a high level, this process can be broken down into three main phases: <b>Receive</b>, <b>Process</b>, and <b>Send</b>.
+#### The D.R.E.W. System Tool 
+The central control application will serve two main purposes: provide a graphical interface that allows users to set system configurations, and run back end logic that controls the hardware. After loading any previously saved configurations, the D.R.E.W. System Tool start background processes and show the GUI to the user. The user can monitor the state of the system, as well as make changes to the current configuration. These configs will be saved when exiting the program. The logic that drives the system can be broken down into two main parts: the <b>Serial Reader</b>, and the <b>Bluetooth Controller</b>.
 
-<b>Receive:</b>
-When in this stage, the central hub is waiting for a signal from a wearable device.  Using a transceiver (RF or Bluetooth) as the input device, it waits until a properly formatted signal is sent from the wearable to the computer.  This signal will contain information about the wearable (device ID, location, etc).  Upon receiving this signal, the program moves to processing stage.
+<b>Serial Reader:</b>
+The Serial Reader is responsible for the initial reading and processing of messages from the hardware. It is connected over serial to the USB module, and constantly reads any messages that the USB module receives. It then proceeds to do some initial processing, such as ignoring unknown hardware. It then attempts to determine if the system state has changed. If any actions need to be taken, it puts a work item into a queue that tells the bluetooth controller which actions to take.
+<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/serial_reader.png" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
+
+
+<b>Bluetooth Controller:</b>
+The bluetooth controller reads items from a work queue, each of which contains information regarding the relavent zone and entry/exit action. The controller then finds all controllable devices in the zone, and attempts to change their state the new state. It will attempt to connect to disconnected devices, but will only do so a few times to avoid hanging the system.
 <img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/bluetooth_controller.png" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">  
 
-
-<b>Process:</b>
-The processing stage is concerned with translating the signal received into an action to be performed.  Using the unique ID of the wearable, the central control unit will lookup user defined preferences, and create a list of possible actions to take.  Then based on the location (or possibly changes in location) one of these actions will be selected.  For example if the processing stage receives an ID of "1", and a location of "Hallway" then it might choose an action of "turn hallway lights on".
-<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/serial_reader.png" style="width:800px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">  
-
-
-<b>Send:</b>
-This is the final stage of the program.  After a signal is received and processed, the central control unit now has an action to take.  This action will be converted into an output signal (RF or Bluetooth), and sent to the device it wishes to control.  This stage of the program is concerned with transforming "actions" into signals, and ensuring these signals are sent correctly.  After sending this signal it will move to the Receive stage, and wait for another incoming signal.
-<img src="https://github.com/danhipke/danhipke.github.io/raw/master/images/Send_Flowchart.png" style="width:500px;border:2px solid black;display:block;margin-left:auto;margin-right:auto">
 
 #### D.R.E.W. System Tool
 This desktop application allows users to setup and configure their D.R.E.W. system. Check out the preliminary <a href="https://github.com/danhipke/danhipke.github.io/raw/master/images/storyboard.pdf" target="_blank">UI storyboard</a>.
